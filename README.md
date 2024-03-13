@@ -1,4 +1,4 @@
-![City-Facade-logo](https://github.com/Ting-Devin-Han/City-Facade/blob/main/logo/City-Facade.png)
+![City-Facade-logo](https://github.com/gorgeouseping/City-Facade/blob/main/logo/City-Facade.png)
 # City-Facade 
 This is the Dataset and Code of City-Facade proposed by our paper "City-Facade: Segmentation of Building Facade Elements in Large-Scale 3D Point Clouds".
 
@@ -6,11 +6,19 @@ This is the Dataset and Code of City-Facade proposed by our paper "City-Facade: 
 
 ## City-Facade Preview
 
-<img src="https://github.com/Ting-Devin-Han/City-Facade/blob/main/Pictures/Xiamen.png" alt="Xiamen">
+<img src="https://github.com/gorgeouseping/City-Facade/blob/main/Pictures/Xiamen.png" alt="Xiamen">
+
+<img src="https://github.com/gorgeouseping/City-Facade/blob/main/demo/CAR.gif" alt="CAR">
+
+<img src="https://github.com/gorgeouseping/City-Facade/blob/main/demo/JMC.gif" alt="JMC">
+
+<img src="https://github.com/gorgeouseping/City-Facade/blob/main/demo/XHR.gif" alt="XHR">
+
+<img src="https://github.com/gorgeouseping/City-Facade/blob/main/demo/YWR.gif" alt="YWR">
 
 ## Dataset Download
 
-Please enjoy this dataset we have provided. Click here to download.
+Please enjoy this dataset we have provided. Click [here](https://drive.google.com/drive/folders/1EX0Dq3_Xj8WcO4CdRxdbaCAVtM4IGS9g?usp=sharing) to download small examples.
 
 ## Installation
 
@@ -51,14 +59,15 @@ data
 
 |Method|Model|OA|mIoU|
 |-|-|-|-|
-|PointNet|PointNet|-|-|
-|PointNet++|PointNet++|-|-|
-|DGCNN|DGCNN|-|-|
-|DeepGCNs|DeepGCNs|-|-|
-|ASSANet|ASSANet-L|-|-|
-|PointNeXt|PointNeXt-L|-|-|
-|PointVector|-|-|
-|PointMetaBase|PointMetaBase-L|-|-|
+|PointNet|PointNet|74.57|11.87|
+|PointNet++|PointNet++|74.76|11.82|
+|DGCNN|DGCNN|75.77|11.70|
+|DeepGCNs|DeepGCNs|76.04|11.95|
+|ASSANet|ASSANet-L|81.61|34.49|
+|PointTrans.|PointTrans.|74.83|39.26|
+|PointNeXt|PointNeXt-L|78.79|22.19|
+|PointVector|PointVector|85.22|36.57|
+|PointMetaBase|PointMetaBase-L|86.27|39.34|
 
 ## Organizations
-<img src="https://github.com/Ting-Devin-Han/City-Facade/blob/main/logo/Sun%20Yat-sen%20University.png" alt="SYSU" width="50%" height="50%"><img src="https://github.com/Ting-Devin-Han/City-Facade/blob/main/logo/Xiamen%20University.png" alt="XMU" width="50%" height="50%">
+<img src="https://github.com/gorgeouseping/City-Facade/blob/main/logo/Sun%20Yat-sen%20University.png" alt="SYSU" width="50%" height="50%"><img src="https://github.com/gorgeouseping/City-Facade/blob/main/logo/Xiamen%20University.png" alt="XMU" width="50%" height="50%">
